@@ -1,0 +1,27 @@
+.grid {
+  width: 606px;
+  height: 606px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  border: solid black 1px;
+}
+
+.mole {
+  background: url("images/mole.PNG") no-repeat center;
+}
+
+.headings {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headings p {
+  font-size: 22px;
+}
